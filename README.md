@@ -13,7 +13,7 @@ A <img src="./source/_static/T4D_logo_bw.svg" alt="T4D" width="25" height="25"> 
 
 #### Shared compute ecosystems
 
-- Become aware that non‑virtualized approaches exist (bare‑metal provisioning, PXE, dedicated nodes).  
+- Become aware that non‑virtualized approaches exist (bare‑metal provisioning, dedicated nodes).  
 - Gain a high‑level overview of common sharing approaches (IaaS, PaaS, SaaS, HPC).  
 - Recognize multi‑tenancy implications: quotas, noisy neighbors, resource contention.
 
@@ -87,7 +87,6 @@ A <img src="./source/_static/T4D_logo_bw.svg" alt="T4D" width="25" height="25"> 
 - Get acquainted with Terraform (provisioning) and Ansible (configuration).  
 - Learn to set up a basic IaC‑driven VM lifecycle: plan → apply → change → destroy.
 
-
 #### On-demand cloud usage (towards a cluster-like usage pattern)
 
 - Learn the pattern of attaching VM/container lifecycles to computational workloads (ephemeral compute).  
@@ -123,10 +122,3 @@ A <img src="./source/_static/T4D_logo_bw.svg" alt="T4D" width="25" height="25"> 
 
 
 ---
-
-### Practical examples:
-
-1. Deeplearning with pytorch lightning and SLURM
-2. Example with external database (caching to scratch)
-3. Simple project including provisioning, container build + deploy, automated execution and cleanup.
-
