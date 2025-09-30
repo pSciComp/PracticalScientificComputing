@@ -9,9 +9,10 @@ A <img src="./source/_static/T4D_logo_bw.svg" alt="T4D" width="25" height="25"> 
 #### Virtualization and "bare-metal"
 
 - Understand the basic terminology (VM, container, hypervisor, server, image).  
-- Relate the "⭐‑as‑a‑Service" principle to virtualization layers and operational responsibility (IaaS, PaaS, FaaS).  
+- Relate the "X‑as‑a‑Service" principle to virtualization layers and operational responsibility (IaaS, PaaS, FaaS).  
 
 #### Shared compute ecosystems
+
 - Become aware that non‑virtualized approaches exist (bare‑metal provisioning, PXE, dedicated nodes).  
 - Gain a high‑level overview of common sharing approaches (IaaS, PaaS, SaaS, HPC).  
 - Recognize multi‑tenancy implications: quotas, noisy neighbors, resource contention.
@@ -24,12 +25,12 @@ A <img src="./source/_static/T4D_logo_bw.svg" alt="T4D" width="25" height="25"> 
 #### Cloud vs. Cluster
 
 - Understand how cloud infrastructures differ from clusters in terms of:
-  - project life-cycle (provision → run → teardown)
-  - resource availability and elasticity
-  - (pre‑)configuration and bootstrap requirements
-  - interaction capabilities (interactive APIs vs batch interfaces)
-  - monitoring and observability
-  - I/O characteristics (object storage vs POSIX/parallel filesystems)
+  - project life-cycle (provision → run → teardown).
+  - resource availability and elasticity.
+  - (pre‑)configuration and bootstrap requirements.
+  - interaction capabilities (interactive APIs vs batch interfaces).
+  - monitoring and observability.
+  - I/O characteristics (object storage vs POSIX/parallel filesystems).
 
 - Get a decision checklist to choose cloud, cluster, or hybrid for a workload.
 
@@ -42,12 +43,12 @@ A <img src="./source/_static/T4D_logo_bw.svg" alt="T4D" width="25" height="25"> 
 - Learn the DRY principle and how it encourages reusable code.  
 - Understand orthogonal code organization and why it simplifies computational projects.  
 - Learn how to develop a codebase prepared for cluster and/or cloud execution (modularity, tests, environment capture).
-- Get a minimal repo template for a code-ready project.
+- Get a minimal repo template for cluster/cloud-ready project.
 
 #### A word on parallelism
 
-- Learn to classify a workload into levels of parallelism (find-/coarse-grained, embarrassing)
-- Apprehend the implications when working with a high-level language like python
+- Learn to classify a workload into levels of parallelism (fine-/coarse-grained, embarrassing).
+- Apprehend the implications when working with a high-level language like python.
 
 #### Project structure and management
 - Become aware of version control practices for code and data (Git, Git LFS).  
@@ -59,7 +60,7 @@ A <img src="./source/_static/T4D_logo_bw.svg" alt="T4D" width="25" height="25"> 
 - Use workflow descriptions and container images to make runs repeatable.
 
 #### Picking a side
-- Be able to identify cluster‑ or cloud‑friendly properties of a project (data gravity, burstiness, parallelism type, compliance, project lifecycle).  
+- Be able to identify cluster‑ or cloud‑friendly properties of a project early on (data gravity, burstiness, parallelism type, compliance, project lifecycle).  
 - Produce a simple rubric to score a project and recommend “cluster‑first”, “cloud‑first”, or “hybrid”.
 
 
@@ -95,14 +96,7 @@ A <img src="./source/_static/T4D_logo_bw.svg" alt="T4D" width="25" height="25"> 
 
 ### Part 4: Clustered computing
 
-- Goal: enable project execution on HPC clusters (Slurm‑like) with portability toward cloud.
-
 #### A primer for a scheduling system
-
-- Get familiar with cluster layout (login nodes, compute nodes, ...) .  
-- Learn Slurm basics: sbatch, srun, salloc, job arrays, dependencies.  
-
-#### Recap cluster basics
 
 - Identify cluster components and access modes (login/head nodes, scheduler, compute nodes; interactive vs batch).
 - Manage secure access (SSH keys, MFA) and follow safe‑login practices.
@@ -114,7 +108,7 @@ A <img src="./source/_static/T4D_logo_bw.svg" alt="T4D" width="25" height="25"> 
 
 - Distinguish storage tiers (home/data, $SCRATCH) and their intended use.
 - Stage inputs to fast storage and return outputs to persistent storage with checksums.
- - Avoid small‑file and metadata storms by bundling or sharding data.
+- Avoid small‑file and metadata storms by bundling or sharding data.
 
 #### Resource requests, packing & performance optimization
 
@@ -126,4 +120,13 @@ A <img src="./source/_static/T4D_logo_bw.svg" alt="T4D" width="25" height="25"> 
 
 - Be able to build Singularity images (from Docker) for reproducible execution on clusters.
 - Get familiar with live-sessions and web based interfaces (OnDemand, aka. ScienceApps)
+
+
+---
+
+### Practical examples:
+
+1. Deeplearning with pytorch lightning and SLURM
+2. Example with external database (caching to scratch)
+3. Simple project including provisioning, container build + deploy, automated execution and cleanup.
 
