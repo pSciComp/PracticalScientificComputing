@@ -6,6 +6,36 @@ A <img src="./source/_static/T4D_logo_bw.svg" alt="T4D" width="25" height="25"> 
 
 ### Part 1: Utilization of shared resources
 
+#### Challenges in scientific computing
+
+- Processing large amounts of data (inference or/and statistical analysis - video data, genomic data, large matrices, etc).
+  
+  In practice this boils down to:
+  - Finding/managing storage solutions
+  - Make data available to computational resources
+  - Configure computational resources to digest data properly
+
+- Produce large amounts of synthetic data (statistical bootstrapping, Monte Carlo simulations, many-body-simulations).
+- Develop and evaluate machine learning models (hyperparameter tuning, deep learning)
+- Transparency and Reproducibility.
+
+Framed differently we can define 4 categories:
+
+1. Resource limitations (Memory & Storage)
+   - Storage quotas
+   - Logistical challenges to move data
+   - Handling datasets (RAM usage)
+2. Compute limitations time and computing power (CPU & GPU)
+   - Job run-times
+   - Specialized hardware (GPU/TPU) and architecture requirements
+3. Task multiplicity
+   - Massive parallelisms
+   - Data aggregation
+4. Transparency & Reproducibility
+   - Environment consistency (hardware & software)
+   - Data transparency (pre-trained models, )
+   - Workflow documentation
+
 #### Virtualization and "bare-metal"
 
 - Understand the basic terminology (VM, container, hypervisor, server, image).  
@@ -25,7 +55,7 @@ A <img src="./source/_static/T4D_logo_bw.svg" alt="T4D" width="25" height="25"> 
 #### Cloud vs. Cluster
 
 - Understand how cloud infrastructures differ from clusters in terms of:
-  - project life-cycle (provision → run → teardown).
+  - project life-cycle (provision → run → tear-down).
   - resource availability and elasticity.
   - (pre‑)configuration and bootstrap requirements.
   - interaction capabilities (interactive APIs vs batch interfaces).
