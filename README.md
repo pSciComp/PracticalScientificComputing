@@ -51,20 +51,24 @@ A <img src="./source/_static/T4D_logo_bw.svg" alt="T4D" width="25" height="25"> 
 - Apprehend the implications when working with a high-level language like python.
 
 #### Project structure and management
+
 - Become aware of version control practices for code and data (Git, Git LFS).  
 - Gain a practical understanding of how to separate data, parametrization, scripts, and software packages.  
 - Capture environments with lockfiles or container recipes for reproducibility.
 
 #### A word on reproducibility
+
 - Recognize how designing projects for cloud & cluster enhances reproducibility (containers, workflows).  
 - Use workflow descriptions and container images to make runs repeatable.
 
 #### Picking a side
+
 - Be able to identify cluster‑ or cloud‑friendly properties of a project early on (data gravity, burstiness, parallelism type, compliance, project lifecycle).  
 - Produce a simple rubric to score a project and recommend “cluster‑first”, “cloud‑first”, or “hybrid”.
 
 
 ---
+
 
 ### Part 3: In the Clouds
 
