@@ -6,20 +6,9 @@ A <img src="./source/_static/T4D_logo_bw.svg" alt="T4D" width="25" height="25"> 
 
 ### Part 1: Utilization of shared resources
 
+_For an detailed overveiw see [contentOverview/Part1.md](./contentOverview/Part1.md)_
+
 #### Challenges in scientific computing
-
-- Processing large amounts of data (inference or/and statistical analysis - video data, genomic data, large matrices, etc).
-  
-  In practice this boils down to:
-  - Finding/managing storage solutions
-  - Make data available to computational resources
-  - Configure computational resources to digest data properly
-
-- Produce large amounts of synthetic data (statistical bootstrapping, Monte Carlo simulations, many-body-simulations).
-- Develop and evaluate machine learning models (hyperparameter tuning, deep learning)
-- Transparency and Reproducibility.
-
-Framed differently we can define 4 categories:
 
 1. Resource limitations (Memory & Storage)
    - Storage quotas
@@ -68,6 +57,8 @@ Framed differently we can define 4 categories:
 
 ### Part 2: Cloud/Cluster‑ready projects
 
+_For an detailed overveiw see [contentOverview/Part2.md](./contentOverview/Part2.md)_
+
 #### Primer on software development
 
 - Learn the DRY principle and how it encourages reusable code.  
@@ -102,6 +93,8 @@ Framed differently we can define 4 categories:
 
 ### Part 3: In the Clouds
 
+_For an detailed overveiw see [contentOverview/Part3.md](./contentOverview/Part3.md)_
+
 #### Provision and deploy
 
 - Get familiar with the provisioning workflow (project/account → image → network → storage → instance → bootstrap).  
@@ -128,6 +121,8 @@ Framed differently we can define 4 categories:
 ---
 
 ### Part 4: Clustered computing
+
+_For an detailed overveiw see [contentOverview/Part4.md](./contentOverview/Part4.md)_
 
 #### A primer for a scheduling system
 
