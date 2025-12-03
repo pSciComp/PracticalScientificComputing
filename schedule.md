@@ -18,14 +18,21 @@
 | 12:00 | Present the cluster | Presentation | - Basic idea.<br> - Typical (abstract) usecase<br> - Short intro to SLURM<br> - How to interface with (terminal)<br> - How it combines with distributed storage<br> - Overview of the Science IT cluster. |
 | 12:30 | Building a checklist | Presentation/Interactive | _Idea: We define a list of attributes (availability, life-cycle, accessibility, storage requirements, ...) and work out together how each attribute affects the suitability of the cloud/cluster for a project_ |
 | 13:00 | Lunch (1h) | | |
-| 14:00 | Short intro | Presentation | In the afternoon we focus on project design and coding practices that facilitate the usage of cloud/cluster infrastructures |
-| 14:05 | Primer on software development | Presentation | |
 
 ## Afternoon
 
 | **Time** | **Section** | **Type** | **Description** |
 | --- | :--- | --- | :--- |
-| 13:30 | | | |
+| 14:00 | Short intro | Presentation | In the afternoon we focus on project design and coding practices that facilitate the usage of cloud/cluster infrastructures |
+| 14:05 | What information belongs into a project? | Presentation/Interactive | _Collect what belongs into a project_<br> - Documentation (about the project: goal, approach, assumptions, etc.)<br> - Scripts (training/analysis)<br> - Data used (either include or declare where to find it)<br> - Environment (functional declaration via requirements.txt or Dockerfile; include hardware specifics) |
+| 14:20 | General template for a project structure | Presentation | Present a template structure that allows to include the identified elements of a project<br>_Also provide a link to a project template_|
+| 14:30 | Version control | Presentation | - Short introduction to version control with git (see Git4Acad material). |
+| 14:40 | How to include a project documentation | Presentation | - The `README.md` file<br> - Propose a commonly used structure<br> - How to include further docs (e.g. sphinx, refer to project template)|
+| 14:50 | How to include data | Presentation | |
+| 15:05 | How to declare an environment | Presentation | |
+
+| 15:30 | Break (15') | | |
+| 15:45 | Primer on software development | Presentation | - |
 
 ## Homework
 
@@ -38,11 +45,14 @@
 | 9:00 | Intro | Presentation | - Today's schedule<br>- Short recap of content from first day | 
 | 9:10 | Homework | Interactive | - General feedback<br>- Discuss exercises | 
 | 9:30 | | Presentation| - <br> | 
+| 10:30 | Break (15') | | |
+| 13:00 | Lunch (1h) | | |
 
 ## Afternoon
 
 | **Time** | **Section** | **Type** | **Description** |
 | --- | :--- | --- | :--- |
-| 13:30 | | | |
+| 14:00 | | | |
+| 15:30 | Break (15') | | |
 
 ## Homework
