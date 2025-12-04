@@ -41,6 +41,7 @@
 | 17:00 | 1st day end | | |
 
 ## Homework
+
 1. **Cleaning up a toy project**
 
    Finish the started exercise before the 2nd day. Invite one of the instructors to the project.
@@ -67,9 +68,16 @@
 | **Time** | **Section** | **Type** | **Description** |
 | --- | :--- | --- | :--- |
 | 9:00 | Intro | Presentation | - Today's schedule<br>- Short recap of content from first day | 
-| 9:10 | Homework | Interactive | - General feedback<br>- Discuss exercises | 
-| 9:30 | | Presentation| - <br> | 
+| 9:10 | Homework | Interactive | - General feedback<br>- Discuss exercises<br>- Collect info about what type of projects the participants had/have (computation, storage, what resources were/are used) | 
+| 9:20 | Short recap on SLURM cluster | Presentation | - What type of parallelism it offers<br>- life-cycle of a project on a cluster<br>- How to interface with<br>- What is offered at UZH. |
+| 9:30 | What components make up a cluster | Presentation | Provide an overview of basic elements that make up a SLURM cluster infrastructure.<br>Define their function and point out what they are (not) used for. |
+| 9:30 | Basic workflow on a cluster | Presentation/Interactive | Jointly gather the basic steps to go through when working with a cluster. |
+| 9:45 | Deep-dive into storage | Presentation | Where data can and should (or should not) be stored and written to during the different steps of a cluster workflow (home, data, scratch, fetch from outside). |
+| 10:00 | Managing the runtime environment on a cluster | Presentation | - module system approach<br>- Limitations (no root)<br>- Showcase how a projects environment declaration can be used for an easy setup. |
+| 10:15 | Job submission and monitoring commands | Presentation | - Present basic command<br>- Tie them to the typical workflow<br>_We want to keep this short, user not familiar with this should follow Science IT's intro course._ |
 | 10:30 | Break (15') | | |
+| 10:45 | Do's and Dont's | Presentation | - I/O pitfalls - avoid "attacking" the filesystem<br>- Resousage efficiency - Request what you need, use what you requested<br>- Runtime management - Use the time you have, request time moderately |
+
 | 13:00 | Lunch (1h) | | |
 
 ## Afternoon
