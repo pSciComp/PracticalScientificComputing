@@ -73,10 +73,16 @@
 | 9:30 | What components make up a cluster | Presentation | Provide an overview of basic elements that make up a SLURM cluster infrastructure.<br>Define their function and point out what they are (not) used for. |
 | 9:30 | Basic workflow on a cluster | Presentation/Interactive | Jointly gather the basic steps to go through when working with a cluster. |
 | 9:45 | Deep-dive into storage | Presentation | Where data can and should (or should not) be stored and written to during the different steps of a cluster workflow (home, data, scratch, fetch from outside). |
-| 10:00 | Managing the runtime environment on a cluster | Presentation | - module system approach<br>- Limitations (no root)<br>- Showcase how a projects environment declaration can be used for an easy setup. |
+| 10:00 | Managing the runtime environment on a cluster | Presentation | - module system approach<br>- Limitations (no root)<br>- Showcase how a projects environment declaration can be used for an easy setup.<br>- Short intro to singularity. |
 | 10:15 | Job submission and monitoring commands | Presentation | - Present basic command<br>- Tie them to the typical workflow<br>_We want to keep this short, user not familiar with this should follow Science IT's intro course._ |
+| 10:25 | Containers in the cluster | Exercise | Step through a workflow running a computational task in a container. |
 | 10:30 | Break (15') | | |
-| 10:45 | Do's and Dont's | Presentation | - I/O pitfalls - avoid "attacking" the filesystem<br>- Resousage efficiency - Request what you need, use what you requested<br>- Runtime management - Use the time you have, request time moderately |
+| 10:45 | Containers in the cluster | Exercise | Continue with exercise/discuss. |
+| 11:00 | Do's and Dont's | Presentation | - I/O pitfalls - avoid "attacking" the filesystem<br>- Resousage efficiency - Request what you need, use what you requested<br>- Runtime management - Use the time you have, request time moderately<br>- manage randomness - take control of seeds and make repetitions count. |
+| 11:20 | Profiling | Presentation | How to track resources (CPU/GPU/memory)<br>- Runtime tracking<br>- I/O profiling |
+| 11:40 | Job sizing | Presentation |  |
+| 12:10 | Orchestration | Presentation | _Relate back to the project structure from day 1_<br>_Focus on practical tips._ |
+| 12:30 | Typical use-cases | Interactive | _Go through 3 use-cases:<br>1. Processing large amount of data for a statistical analysis.<br>2. Generate synthetic data<br>3. Train LLM on multiple GPU's_|
 
 | 13:00 | Lunch (1h) | | |
 
