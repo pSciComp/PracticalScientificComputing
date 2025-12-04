@@ -79,7 +79,7 @@
 | 10:45 | Containers in the cluster | Exercise | Step through a workflow running a computational task in a container. |
 | 11:00 | Do's and Dont's | Presentation | - I/O pitfalls - avoid "attacking" the filesystem<br>- Resousage efficiency - Request what you need, use what you requested<br>- Runtime management - Use the time you have, request time moderately<br>- manage randomness - take control of seeds and make repetitions count. |
 | 11:20 | Profiling | Presentation | How to track resources (CPU/GPU/memory)<br>- Runtime tracking<br>- I/O profiling |
-| 11:40 | Job sizing | Presentation |  |
+| 11:40 | Job sizing | Presentation | - Know the queueing conditions<br>- Know the compute hardware (configurations of cpu/gpu/memory)<br>- Use parallelism (cpu cores/gpu) inside single jobs<br>- Adapt job size to fit into desired queue (use profiling). |
 | 12:10 | Orchestration | Presentation | _Relate back to the project structure from day 1_<br>_Focus on practical tips._ |
 | 12:30 | Typical use-cases | Interactive | _Go through 3 use-cases:<br>1. Processing large amount of data for a statistical analysis.<br>2. Generate synthetic data<br>3. Train LLM on multiple GPU's_|
 | 13:00 | Lunch (1h) | | |
