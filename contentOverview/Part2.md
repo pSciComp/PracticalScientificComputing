@@ -25,3 +25,10 @@ _This will be but a short introduction to git and how to use it._
 Following the structure of a template `README.md` we step through what essential information belong into a documentation.
 
 _We want to keep this short; focus on documenting where to find what and how to execute/run the analysis/training._
+
+## Related data
+
+The goal here is to make the participants aware:
+
+1. In any project that relies on data it must be clearly documented, where the data can be found, how it should be accessed and integrated into the project.
+2. Data should always be decoupled from scripts and parametrization (remember the stateful and stateless.
