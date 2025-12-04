@@ -69,28 +69,36 @@
 | --- | :--- | --- | :--- |
 | 9:00 | Intro | Presentation | - Today's schedule<br>- Short recap of content from first day | 
 | 9:10 | Homework | Interactive | - General feedback<br>- Discuss exercises<br>- Collect info about what type of projects the participants had/have (computation, storage, what resources were/are used) | 
-| 9:20 | Short recap on SLURM cluster | Presentation | - What type of parallelism it offers<br>- life-cycle of a project on a cluster<br>- How to interface with<br>- What is offered at UZH. |
+| 9:20 | Short recap on SLURM "cluster" | Presentation | - What type of parallelism it offers<br>- life-cycle of a project on a cluster<br>- How to interface with<br>- What is offered at UZH. |
 | 9:30 | What components make up a cluster | Presentation | Provide an overview of basic elements that make up a SLURM cluster infrastructure.<br>Define their function and point out what they are (not) used for. |
-| 9:30 | Basic workflow on a cluster | Presentation/Interactive | Jointly gather the basic steps to go through when working with a cluster. |
-| 9:45 | Deep-dive into storage | Presentation | Where data can and should (or should not) be stored and written to during the different steps of a cluster workflow (home, data, scratch, fetch from outside). |
-| 10:00 | Managing the runtime environment on a cluster | Presentation | - module system approach<br>- Limitations (no root)<br>- Showcase how a projects environment declaration can be used for an easy setup.<br>- Short intro to singularity. |
-| 10:15 | Job submission and monitoring commands | Presentation | - Present basic command<br>- Tie them to the typical workflow<br>_We want to keep this short, user not familiar with this should follow Science IT's intro course._ |
-| 10:25 | Containers in the cluster | Exercise | Step through a workflow running a computational task in a container. |
+| 9:40 | Basic workflow on a cluster | Presentation/Interactive | Jointly gather the basic steps to go through when working with a cluster. |
+| 9:55 | Deep-dive into storage | Presentation | Where data can and should (or should not) be stored and written to during the different steps of a cluster workflow (home, data, scratch, fetch from outside). |
+| 10:10 | Managing the runtime environment on a cluster | Presentation | - module system approach<br>- Limitations (no root)<br>- Showcase how a projects environment declaration can be used for an easy setup.<br>- Short intro to singularity. |
+| 10:25 | Job submission and monitoring commands | Presentation | - Present basic command<br>- Tie them to the typical workflow<br>_We want to keep this short, user not familiar with this should follow Science IT's intro course._ |
 | 10:30 | Break (15') | | |
-| 10:45 | Containers in the cluster | Exercise | Continue with exercise/discuss. |
+| 10:45 | Containers in the cluster | Exercise | Step through a workflow running a computational task in a container. |
 | 11:00 | Do's and Dont's | Presentation | - I/O pitfalls - avoid "attacking" the filesystem<br>- Resousage efficiency - Request what you need, use what you requested<br>- Runtime management - Use the time you have, request time moderately<br>- manage randomness - take control of seeds and make repetitions count. |
 | 11:20 | Profiling | Presentation | How to track resources (CPU/GPU/memory)<br>- Runtime tracking<br>- I/O profiling |
 | 11:40 | Job sizing | Presentation |  |
 | 12:10 | Orchestration | Presentation | _Relate back to the project structure from day 1_<br>_Focus on practical tips._ |
 | 12:30 | Typical use-cases | Interactive | _Go through 3 use-cases:<br>1. Processing large amount of data for a statistical analysis.<br>2. Generate synthetic data<br>3. Train LLM on multiple GPU's_|
-
 | 13:00 | Lunch (1h) | | |
 
 ## Afternoon
 
 | **Time** | **Section** | **Type** | **Description** |
 | --- | :--- | --- | :--- |
-| 14:00 | | | |
+| 14:00 | Cluster advanced/special topics | Presentation | - co-location<br>- conditional (re)submission<br> live-sessions (onDemand)<br> ...|
+| 14:20 | Short recap on "cloud" | Presentation | - What type of parallelism it offers<br>- life-cycle of a project on a cloud<br>- How to interface<br>- What is offered at UZH. |
+| 14:30 | What components make up a cloud | Presentation | Provide overview.<br>Define (some of) their functions. |
+| 14:40 | Basic workflow on a cluster | Presentation/Interactive | Jointly gather the basic steps to go through when working on a cluster.<br>_Rather simple and quick_ |
+| 14:50 | Using storage with the cloud | Presentation | - Usage  of distributed storage<br>- mounting volumes (which are also on distr. storage at UZH)<br>- Access pattern differences to cluster based workloads. |
+| 15:05 | Managing the runtime environment on a cloud | Presentation | - Dedicated machine (same as on local device)<br>- Keep full images as runtime environments (reproducibility)<br>- obtain machine-based parallelism by spawning multiple-identical VMs |
+| 15:20 | Programmatic workflow on a cloud | Presentation | - Setup VM to run individual job<br>- Create image<br>- Orchestrate generation of multiple VMs via SDK<br>- Spawn VMs<br>- Store out-put on network storage<br>- Decommission VMs. |
 | 15:30 | Break (15') | | |
+| 15:45 | Do's and Dont's | Presentation | - Life-cycle pitfalls - pay for existence not usage<br>- Resource hording - Only I will use this (eventually)<br>- Evaluate the tool - Ease of use does not yet make it the right tool<br>- manage randomness - take control of seeds and make repetitions count (again) |
+| 16:00 | Cloud access 1x1 | Exercise | _Not sure if it is possible to give all participants access to the cloud for this course. If not we can do this in a life-session_<br>- Provision a VM using the SDK<br>- Minimal deployment with an ansible script<br>- Run toy analysis and store results on network fs (also ansible)<br>- Decommission with SDK |
+| 16:30 | Recap / Further reading / Questions | Interactive | | 
+| 17:00 | 2nd day end | | |
 
 ## Homework
