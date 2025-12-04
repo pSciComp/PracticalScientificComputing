@@ -27,15 +27,39 @@
 | 14:00 | Short intro | Presentation | In the afternoon we focus on project design and coding practices that facilitate the usage of cloud/cluster infrastructures |
 | 14:05 | What information belongs into a project? | Presentation/Interactive | _Collect what belongs into a project_<br> - Documentation (about the project: goal, approach, assumptions, etc.)<br> - Scripts (training/analysis)<br> - Data used (either include or declare where to find it)<br> - Environment (functional declaration via requirements.txt or Dockerfile; include hardware specifics) |
 | 14:20 | General template for a project structure | Presentation | Present a template structure that allows to include the identified elements of a project<br>_Also provide a link to a project template_|
-| 14:30 | Version control | Presentation | - Short introduction to version control with git (see Git4Acad material). |
+| 14:30 | Version control | Presentation/Interactive | _We will start with the question "for how long are you using git? a) Less than 1 year, b) 1-2 years, c) more than 2 years_<br> - Short introduction to version control with git (see Git4Acad material). |
 | 14:40 | How to include a project documentation | Presentation | - The `README.md` file<br> - Propose a commonly used structure<br> - How to include further docs (e.g. sphinx, refer to project template)|
 | 14:50 | How to include data | Presentation | |
-| 15:05 | How to declare an environment | Presentation | |
-
+| 15:00 | How to declare an environment | Presentation | |
+| 15:10 | How to organize your scripts | Presentation | - Separation between reusable code, scripts and parametrization.<br> - Split scripts into orchestration, individual job and aggregation. |
+| 15:20 | Cleaning up a toy project 1/3 | Exercise | _We provide a simple ML project with python scripts that do not adhere to a functional split up of scripts._
+- Identify what is wrong with these scripts. |
 | 15:30 | Break (15') | | |
-| 15:45 | Primer on software development | Presentation | - |
+| 15:45 | Primer on software development | Presentation | Short intro with toy examples:<br> - Orthogonal coding<br> - Don't repeat yourself (DRY) principle<br> - Single source of truth (SST)<br> Have a look at a project template that facilitates following these principles |
+| 16:05 | Cleaning up a toy project 2/3 | Exercise | _Go back to the project and identify where it violates orthogonal coding, DRY and/or SST._ |
+| 16:20 | Structuring your scripts | Presentation | Have a look at a project template that facilitates following the presented software development principles. |
+| 16:30 | Cleaning up a toy project 3/3 | Exercise | _Bring the example ML project into the presented project structure. Clearly separate parametrization, reusable code and scripts. Separate scripts into orchestration, individual job and aggregation._ |
+| 17:00 | 1st day end | | |
 
 ## Homework
+1. **Cleaning up a toy project**
+
+   Finish the started exercise before the 2nd day. Invite one of the instructors to the project.
+
+2. Create a list of your present/past/future projects and identify for each:
+
+   - Short description (just 1 sentence ideally).
+   - What computational (cpu/gpu) and storage (rough size; type of data) resources does it require?
+   - Does it use parallelism already?
+
+     If yes, what kind (multiple machines, cores/gpus single machine, both)?
+
+     If no, would they benefit from using parallelism and if yes what kind?
+   - Did/Will you use special resources in the project?
+
+     If yes, what (cloud (uzh or other), cluster (uzh or other), dedicated machine, etc.?
+
+   We are going to collect this info and discuss it briefly at the beginning of the 2nd day.
 
 # Day 2
 
