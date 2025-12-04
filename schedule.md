@@ -32,8 +32,7 @@
 | 14:50 | How to include data | Presentation | |
 | 15:00 | How to declare an environment | Presentation | |
 | 15:10 | How to organize your scripts | Presentation | - Separation between reusable code, scripts and parametrization.<br> - Split scripts into orchestration, individual job and aggregation. |
-| 15:20 | Cleaning up a toy project 1/3 | Exercise | _We provide a simple ML project with python scripts that do not adhere to a functional split up of scripts._
-- Identify what is wrong with these scripts. |
+| 15:20 | Cleaning up a toy project 1/3 | Exercise | _We provide a simple ML project with python scripts that do not adhere to a functional split up of scripts._<br> - Identify what is wrong with these scripts. |
 | 15:30 | Break (15') | | |
 | 15:45 | Primer on software development | Presentation | Short intro with toy examples:<br> - Orthogonal coding<br> - Don't repeat yourself (DRY) principle<br> - Single source of truth (SST)<br> Have a look at a project template that facilitates following these principles |
 | 16:05 | Cleaning up a toy project 2/3 | Exercise | _Go back to the project and identify where it violates orthogonal coding, DRY and/or SST._ |
