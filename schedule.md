@@ -102,3 +102,5 @@
 | 17:00 | 2nd day end | | |
 
 ## Homework
+
+_Needs to be decided if/what kind of homework we want to give, given that there is no occasion to discuss it afterwards._
