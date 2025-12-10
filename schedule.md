@@ -91,7 +91,7 @@
 | 14:00 | Cluster advanced/special topics | Presentation | - co-location<br>- conditional (re)submission<br> live-sessions (onDemand)<br> ...|
 | 14:20 | Short recap on "cloud" | Presentation | - What type of parallelism it offers<br>- life-cycle of a project on a cloud<br>- How to interface<br>- What is offered at UZH. |
 | 14:30 | What components make up a cloud | Presentation | Provide overview.<br>Define (some of) their functions. |
-| 14:40 | Basic workflow on a cluster | Presentation/Interactive | Jointly gather the basic steps to go through when working on a cluster.<br>_Rather simple and quick_ |
+| 14:40 | Basic workflow on a cloud | Presentation/Interactive | Jointly gather the basic steps to go through when working with cloud infrastructure.<br>_Rather simple and quick_ |
 | 14:50 | Using storage with the cloud | Presentation | - Usage  of distributed storage<br>- mounting volumes (which are also on distr. storage at UZH)<br>- Access pattern differences to cluster based workloads. |
 | 15:05 | Managing the runtime environment on a cloud | Presentation | - Dedicated machine (same as on local device)<br>- Keep full images as runtime environments (reproducibility)<br>- obtain machine-based parallelism by spawning multiple-identical VMs |
 | 15:20 | Programmatic workflow on a cloud | Presentation | - Setup VM to run individual job<br>- Create image<br>- Orchestrate generation of multiple VMs via SDK<br>- Spawn VMs<br>- Store out-put on network storage<br>- Decommission VMs. |
