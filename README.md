@@ -87,40 +87,9 @@ _For an detailed overveiw see [contentOverview/Part2.md](./contentOverview/Part2
 - Be able to identify cluster‑ or cloud‑friendly properties of a project early on (data gravity, burstiness, parallelism type, compliance, project lifecycle).  
 - Produce a simple rubric to score a project and recommend “cluster‑first”, “cloud‑first”, or “hybrid”.
 
-
 ---
 
-
-### Part 3: In the Clouds
-
-_For an detailed overveiw see [contentOverview/Part3.md](./contentOverview/Part3.md)_
-
-#### Provision and deploy
-
-- Get familiar with the provisioning workflow (project/account → image → network → storage → instance → bootstrap).  
-- Be able to generate reproducible deployments using immutable images and cloud‑init/user‑data.
-
-
-#### Efficient resource usage in a Cloud
-
-- Appreciate the potential cost overhead of sparse or specialized resources (GPUs, large memory).  
-- Understand data management best practices in the cloud (prefer object storage for large datasets).  
-- Know when to use ephemeral vs persistent VMs (consider startup latency vs job runtime).
-- Acknowledge what forms of parallelism are well suited for cloud infrastructures.
-
-#### IaC
-
-- Understand the basic principle of Infrastructure as Code (declarative, idempotent, versionable).  
-- Get acquainted with Terraform (provisioning) and Ansible (configuration).  
-- Learn to set up a basic IaC‑driven VM lifecycle: plan → apply → change → destroy.
-
-#### On-demand cloud usage (towards a cluster-like usage pattern)
-
-- Learn the pattern of attaching VM/container lifecycles to computational workloads (ephemeral compute).  
-
----
-
-### Part 4: Clustered computing
+### Part 3: Clustered computing
 
 _For an detailed overveiw see [contentOverview/Part4.md](./contentOverview/Part4.md)_
 
@@ -148,6 +117,37 @@ _For an detailed overveiw see [contentOverview/Part4.md](./contentOverview/Part4
 
 - Be able to build Singularity images (from Docker) for reproducible execution on clusters.
 - Get familiar with live-sessions and web based interfaces (OnDemand, aka. ScienceApps)
+
+
+---
+
+
+### Part 4: In the Clouds
+
+_For an detailed overveiw see [contentOverview/Part3.md](./contentOverview/Part3.md)_
+
+#### Provision and deploy
+
+- Get familiar with the provisioning workflow (project/account → image → network → storage → instance → bootstrap).  
+- Be able to generate reproducible deployments using immutable images and cloud‑init/user‑data.
+
+
+#### Efficient resource usage in a Cloud
+
+- Appreciate the potential cost overhead of sparse or specialized resources (GPUs, large memory).  
+- Understand data management best practices in the cloud (prefer object storage for large datasets).  
+- Know when to use ephemeral vs persistent VMs (consider startup latency vs job runtime).
+- Acknowledge what forms of parallelism are well suited for cloud infrastructures.
+
+#### IaC
+
+- Understand the basic principle of Infrastructure as Code (declarative, idempotent, versionable).  
+- Get acquainted with Terraform (provisioning) and Ansible (configuration).  
+- Learn to set up a basic IaC‑driven VM lifecycle: plan → apply → change → destroy.
+
+#### On-demand cloud usage (towards a cluster-like usage pattern)
+
+- Learn the pattern of attaching VM/container lifecycles to computational workloads (ephemeral compute).  
 
 
 ---
