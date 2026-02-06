@@ -2,9 +2,9 @@
 
 {% if slide %}
 
-```{card} 🔓 Open Source on <i class="fab fa-github"></i> GitHub
+```{card} 🔓 Open Source on Practical Scientific Computing
 :class: tip
-:link: https://github.com/t4d-gmbh/using-git-in-academia
+:link: https://github.com/t4d-gmbh/PracticalScientificComputing
 :link-type: url
 
 :::{image} ./git4acad.png
@@ -13,7 +13,7 @@
 :alt: QR GitHub Repo.
 :::
 
-**<https://github.com/t4d-gmbh/using-git-in-academia>**
+**<https://github.com/t4d-gmbh/PracticalScientificComputing>**
 ```
 {% endif %}
 
