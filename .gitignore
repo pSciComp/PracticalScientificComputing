@@ -3,3 +3,5 @@
 docs/
 *.nix
 venv/
+venvPSC/
+build.sh
