@@ -7,7 +7,7 @@
 :link: https://github.com/t4d-gmbh/PracticalScientificComputing
 :link-type: url
 
-:::{image} ./git4acad.png
+:::{image} ./qr_psc.png
 :align: center
 :width: 180px
 :alt: QR GitHub Repo.
