@@ -1,6 +1,8 @@
 # Practical Scientific Computing
 
-A <img src="./source/_static/T4D_logo_bw.svg" alt="T4D" width="25" height="25"> seminar providing the required essentials — and more — to leverage shared resources efficiently.
+A <img src="./_static/T4D_logo.svg" alt="**T4D**" width="35" height="35"> seminar providing the required essentials — and more — to leverage shared resources efficiently.
+
+ <!-- readme-include -->
 
 ---
 
