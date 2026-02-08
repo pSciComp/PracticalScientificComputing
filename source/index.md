@@ -55,29 +55,29 @@ content/researchSoftwareEngineering/source/content/index
 ```
 
 {% if slide %}
-#### Efficient Cluster Computations
+#### Efficient Cluster Computation
 {% endif %}
 ```{toctree}
-:caption: Part 3: Efficient Cluster Computations
+:caption: Part 3: Efficient Cluster Computation
 :maxdepth: {% if build == "slides" %}1{% else %}2{% endif %}
 {% if build == "slides" %}:numbered:
 :hidden:
 {% endif %}
 
-content/efficientClusterComputations/source/content/index
+content/efficientClusterComputation/source/content/index
 ```
 
 {% if slide %}
-#### Efficient Cloud Computations
+#### Efficient Cloud Usage 
 {% endif %}
 ```{toctree}
-:caption: Part 4: Efficient Cloud Computations
+:caption: Part 4: Efficient Cloud Usage
 :maxdepth: {% if build == "slides" %}1{% else %}2{% endif %}
 {% if build == "slides" %}:numbered:
 :hidden:
 {% endif %}
 
-content/efficientCloudComputations/source/content/index
+content/efficientCloudUsage/source/content/index
 ```
 
 ```{toctree}
