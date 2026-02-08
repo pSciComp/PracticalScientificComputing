@@ -1,0 +1,12 @@
+[submodule "source/content/efficientCloudUsage"]
+	path = source/content/efficientCloudUsage
+	url = https://github.com/t4d-gmbh/efficientCloudUsage
+[submodule "source/content/efficientClusterComputation"]
+	path = source/content/efficientClusterComputation
+	url = https://github.com/t4d-gmbh/efficientClusterComputation
+[submodule "source/content/researchSoftwareEngineering"]
+	path = source/content/researchSoftwareEngineering
+	url = https://github.com/t4d-gmbh/researchSoftwareEngineering
+[submodule "source/content/utilizingSharedResources"]
+	path = source/content/utilizingSharedResources
+	url = https://github.com/t4d-gmbh/utilizingSharedResources
