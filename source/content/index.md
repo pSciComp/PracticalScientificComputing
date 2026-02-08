@@ -1,7 +1,7 @@
 ```{toctree}
 :maxdepth: {% if build == "slides" %}1{% else %}2{% endif %}
 
-howto/index
+about/index
 ```
 ```{toctree}
 :maxdepth: {% if build == "slides" %}1{% else %}2{% endif %}

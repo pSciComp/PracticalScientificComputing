@@ -1,10 +1,22 @@
 # Practical Scientific Computing
 
-A <img src="./source/_static/T4D_logo_bw.svg" alt="T4D" width="25" height="25"> seminar providing the required essentials — and more — to leverage shared resources efficiently.
+A <img src="./_static/T4D_logo.svg" alt="**T4D**" width="35" height="35"> seminar providing the required essentials — and more — to leverage shared resources efficiently.
+
+ <!-- readme-include -->
 
 ---
 
-### Part 1: Utilization of shared resources
+_If you find this course useful, please share it with others! Show your support by giving it a 🌟 using the ⭐-button at the top right of the page._
+
+_By starring the repository, you help increase its visibility, making it easier for others to 🔍 discover and 👩‍🎓 learn how to use Git and its remote services with confidence!_
+
+---
+
+## Content
+
+ <!-- syllabus-include -->
+
+### 1. Part: [Utilizing Shared Resources](https://github.com/t4d-gmbh/utilizingSharedResources)
 
 _For an detailed overveiw see [contentOverview/Part1.md](./contentOverview/Part1.md)_
 
@@ -55,7 +67,7 @@ _For an detailed overveiw see [contentOverview/Part1.md](./contentOverview/Part1
 
 ---
 
-### Part 2: Cloud/Cluster‑ready projects
+### 2. Part: [Research Software Engineering](https://github.com/t4d-gmbh/researchSoftwareEngineering)
 
 _For an detailed overveiw see [contentOverview/Part2.md](./contentOverview/Part2.md)_
 
@@ -89,7 +101,7 @@ _For an detailed overveiw see [contentOverview/Part2.md](./contentOverview/Part2
 
 ---
 
-### Part 3: Clustered computing
+### 3. Part: [Efficient Cluster Computation](https://github.com/t4d-gmbh/efficientClusterComputation)
 
 _For an detailed overveiw see [contentOverview/Part4.md](./contentOverview/Part4.md)_
 
@@ -122,7 +134,7 @@ _For an detailed overveiw see [contentOverview/Part4.md](./contentOverview/Part4
 ---
 
 
-### Part 4: In the Clouds
+### 4. Part: [Efficient Cloud Usage](https://github.com/t4d-gmbh/efficientCloudUsage)
 
 _For an detailed overveiw see [contentOverview/Part3.md](./contentOverview/Part3.md)_
 
@@ -150,4 +162,15 @@ _For an detailed overveiw see [contentOverview/Part3.md](./contentOverview/Part3
 - Learn the pattern of attaching VM/container lifecycles to computational workloads (ephemeral compute).  
 
 
----
+<!-- syllabus-exclude-->
+
+
+## Contributing 🤝🎉
+
+We welcome contributions and suggestions to this material!
+Whether you're fixing bugs 🐛 or typos, adding new features ✨, or improving readability 📚, your help is greatly appreciated!
+
+Before you start, please take a moment to read our [CONTRIBUTING.md](CONTRIBUTING.md) file.
+It contains some details and guidelines 📋 on how to structure new content and best practices to help you get started and ensure that your contributions aligned with the project's goals. 🚀
+
+Thank you for considering contributing to this course! You're awesome! 🌟
