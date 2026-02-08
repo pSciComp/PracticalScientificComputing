@@ -8,7 +8,7 @@
 :link: https://github.com/matteodelucchi
 :link-type: url
 
-:::{image} ./matteo_github.png
+:::{image} ./../../\_static/matteo\_github.png
 :align: center
 :width: 80%
 :alt: Screenshot Matteo
@@ -21,7 +21,7 @@
 :link: https://github.com/j-i-l
 :link-type: url
 
-:::{image} ./jonas_github.png
+:::{image} ./../../\_static/jonas\_github.png
 :align: center
 :width: 80%
 :alt: Screenshot Jonas
