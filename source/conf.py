@@ -4,7 +4,7 @@ from setuptools_scm import get_version
 # -- Configuration parameter -------------------------------------------------
 # ----------------------------------------------------------------------------
 repository_owner = "t4d-gmbh"
-repository_name = "web-course-template"
+repository_name = "PracticalScientificComputing"
 repository_branch = "main"
 # -- optionally adat these
 repository_url = f"https://github.com/{repository_owner}/{repository_name}"
@@ -14,13 +14,13 @@ course_logo = {
     "image_light": "_static/T4D_logo_bw.svg",
     "image_dark": "_static/T4D_logo_wb.svg",
     "link": f"{page_url}/index.html",
-    "alt-text": "T4D GmbH",
-    "favicon": "_static/T4D_logo_bw.svg",
+    "alt-text": "",
+    "favicon": "./_static/T4d_logo.svg",
 }
 # -- name your project
-project = 'Web Course Template'
+project = 'Practical Scientific Computing'
 # -- provide authorship info
-author = 'Jonas Liechti - https://github.com/j-i-l'
+author = 'Jonas Liechti - https://github.com/j-i-l, Matteo Delucchi - https://github.com/matteodelucchi'
 # -- optionally adapt copyright
 copyright = f'{date.today().year}, {repository_owner}'
 # -- should the duscussion link be shown?
@@ -117,6 +117,7 @@ suppress_warnings = [
     "myst.header", # suppress warnings of the kind "WARNING: Non-consecutive header level increase; H1 to H3"
 ]
 
+
 # ###
 # Custom jinja parser to enable jinja templating
 # ###
@@ -132,6 +133,7 @@ def rstjinja(app, docname, source):
             src, app.config.html_context
         )
         source[0] = rendered
+
 
 def include_rstjinja(app, docname, parent_docname, source):
     return rstjinja(app=app, docname=docname, source=source)
