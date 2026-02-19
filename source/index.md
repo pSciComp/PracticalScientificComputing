@@ -1,20 +1,21 @@
 ```{include} ../README.md
 :end-before: <!-- readme-include -->
 ```
+
+A <img src="./_static/T4D_logo.svg" alt="**T4D**" width="35" height="35"> seminar providing the required essentials — and more — to leverage shared resources efficiently.
+
 {% if build == "slides" %}
-<!-- <p style="font-size: 0.9em;"><strong>Dr. Jonas I. Liechti</strong><br>
-<strong>Dr. Matteo Delucchi</strong></p> -->
 :::{admonition} Authors
 :class: note, margin
-Dr. Jonas I. Liechti  
-Dr. Matteo Delucchi
+**Dr. [Jonas I. Liechti](https://github.com/j-i-l)**  
+**Dr. [Matteo Delucchi](https://github.com/matteodelucchi)**
 :::
 
 {% else %}
 ### Authors
 
-**Dr. Jonas I. Liechti**  
-**Dr. Matteo Delucchi**  
+**Dr. [Jonas I. Liechti](https://github.com/j-i-l)**  
+**Dr. [Matteo Delucchi](https://github.com/matteodelucchi)**  
 {% endif %}
 
 ### Content

@@ -1,14 +1,11 @@
 # Practical Scientific Computing
-
-A <img src="./_static/T4D_logo.svg" alt="**T4D**" width="35" height="35"> seminar providing the required essentials — and more — to leverage shared resources efficiently.
-
  <!-- readme-include -->
+
+A <img src="./source/_static/T4D_logo.svg" alt="**T4D**" width="35" height="35"> seminar providing the required essentials — and more — to leverage shared resources efficiently.
 
 ---
 
-_If you find this course useful, please share it with others! Show your support by giving it a 🌟 using the ⭐-button at the top right of the page._
-
-_By starring the repository, you help increase its visibility, making it easier for others to 🔍 discover and 👩‍🎓 learn how to use Git and its remote services with confidence!_
+_You can use this material and the [related web content](https://t4d-gmbh.github.io/PracticalScientifiComputing) as you please, as long as you cite this repository._
 
 ---
 

@@ -30,3 +30,8 @@ div.margin {
     margin: 1vh 0 0.5vh 0 !important;
     font-size: max(1.5vh, 0.9vw) !important;
 }
+
+.navbar-brand img {
+    max-height: 8vh;      /* adjust to whatever height you want */
+    width: auto;           /* keep aspect ratio */
+}

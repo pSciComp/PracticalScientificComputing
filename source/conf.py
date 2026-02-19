@@ -53,7 +53,7 @@ exclude_patterns = []
 
 html_theme = 'sphinx_book_theme'
 html_static_path = ['_static']
-html_css_files = ['custom.css',]
+html_css_files = ['custom.css', 'custom-pst.css']
 
 html_context = {
     "default_mode": "light",
@@ -111,10 +111,13 @@ favicons = [
 ]
 
 myst_enable_extensions = [
+    "attrs_inline",
+    "attrs_block",
     "colon_fence",
 ]
 suppress_warnings = [
-    "myst.header", # suppress warnings of the kind "WARNING: Non-consecutive header level increase; H1 to H3"
+    # suppress "Non-consecutive header level increase; H1 to H3" warnings
+    "myst.header",
 ]
 
 
@@ -137,6 +140,7 @@ def rstjinja(app, docname, source):
 
 def include_rstjinja(app, docname, parent_docname, source):
     return rstjinja(app=app, docname=docname, source=source)
+
 
 def setup(app):
     builds = app.config.html_context.get('build', 'pages')
