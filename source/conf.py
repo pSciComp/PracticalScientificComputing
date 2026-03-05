@@ -3,12 +3,12 @@ from setuptools_scm import get_version
 
 # -- Configuration parameter -------------------------------------------------
 # ----------------------------------------------------------------------------
-repository_owner = "T4D-GmbH"
+repository_owner = "pSciComp"
 repository_name = "PracticalScientificComputing"
 repository_branch = "main"
 # -- optionally adat these
 repository_url = f"https://github.com/{repository_owner}/{repository_name}"
-page_url = f"https://{repository_owner}.github.io/{repository_name}"
+page_url = f"https://pscicomp.courses.t4d.ch"
 # -- set the logo
 course_logo = {
     "image_light": "_static/T4D_logo_bw.svg",
@@ -22,7 +22,7 @@ project = 'Practical Scientific Computing'
 # -- provide authorship info
 author = 'Jonas Liechti - https://github.com/j-i-l, Matteo Delucchi - https://github.com/matteodelucchi'
 # -- optionally adapt copyright
-copyright = f'{date.today().year}, {repository_owner}'
+copyright = f'{date.today().year}, T4D GmbH'
 # -- should the duscussion link be shown?
 show_discussion_link = True
 # ----------------------------------------------------------------------------
