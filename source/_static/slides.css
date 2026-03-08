@@ -20,7 +20,7 @@ div.margin {
 }
 
 #rescaled-text {
-    font-size: max(1vh, 0.6vw) !important;
+    font-size: max(1.6vh, 0.7vw) !important;
 }
 #rescaled-text h1 {
     margin: 1.5vh 0 0.5vh 0 !important;
