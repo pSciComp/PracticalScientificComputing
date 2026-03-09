@@ -156,7 +156,7 @@ def setup(app):
         # simpler sidebar
         app.config.html_sidebars = {
             "**": [
-                # "navbar-logo.html",
+                "navbar-logo.html",
                 "icon-links.html",
                 # "search-button-field.html",
                 "sbt-sidebar-nav.html"
