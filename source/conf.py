@@ -43,10 +43,15 @@ extensions = [
     "sphinx_design",
     "sphinx_togglebutton",
     "sphinx_tabs.tabs",
+    "sphinxcontrib.mermaid"
 ]
 
 templates_path = ['_templates']
 exclude_patterns = []
+
+# -- Options for mermaid diagrams -------------------------------------------------
+mermaid_height = "50%"
+mermaid_width = "100%"
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
