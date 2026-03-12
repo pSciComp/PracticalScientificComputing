@@ -4,7 +4,7 @@
 
 A <img src="./_static/T4D_logo.svg" alt="**T4D**" width="35" height="35"> seminar providing the required essentials — and more — to leverage shared resources efficiently.
 
-{% if build == "slides" %}
+{% if slide %}
 :::{admonition} Authors
 :class: note, margin
 **Dr. [Jonas I. Liechti](https://github.com/j-i-l)**  
@@ -22,8 +22,8 @@ A <img src="./_static/T4D_logo.svg" alt="**T4D**" width="35" height="35"> semina
 
 ```{toctree}
 :caption: About
-:maxdepth: {% if build == "slides" %}1{% else %}2{% endif %}
-{% if build == "slides" %}:hidden:
+:maxdepth: {% if slide %}1{% else %}2{% endif %}
+{% if slide %}:hidden:
 {% endif %}
 
 content/about/index
@@ -34,8 +34,8 @@ content/about/index
 {% endif %}
 ```{toctree}
 :caption: Part 1: Utilizing Shared Resources
-:maxdepth: {% if build == "slides" %}1{% else %}2{% endif %}
-{% if build == "slides" %}:numbered:
+:maxdepth: {% if slide %}1{% else %}2{% endif %}
+{% if slide %}:numbered:
 :hidden:
 {% endif %}
 
@@ -47,8 +47,8 @@ content/utilizingSharedResources/source/content/index
 {% endif %}
 ```{toctree}
 :caption: Part 2: Research Software Engineering
-:maxdepth: {% if build == "slides" %}1{% else %}2{% endif %}
-{% if build == "slides" %}:numbered:
+:maxdepth: {% if slide %}1{% else %}2{% endif %}
+{% if slide %}:numbered:
 :hidden:
 {% endif %}
 
@@ -60,8 +60,8 @@ content/researchSoftwareEngineering/source/content/index
 {% endif %}
 ```{toctree}
 :caption: Part 3: Efficient Cluster Computation
-:maxdepth: {% if build == "slides" %}1{% else %}2{% endif %}
-{% if build == "slides" %}:numbered:
+:maxdepth: {% if slide %}1{% else %}2{% endif %}
+{% if slide %}:numbered:
 :hidden:
 {% endif %}
 
@@ -73,8 +73,8 @@ content/efficientClusterComputation/source/content/index
 {% endif %}
 ```{toctree}
 :caption: Part 4: Efficient Cloud Usage
-:maxdepth: {% if build == "slides" %}1{% else %}2{% endif %}
-{% if build == "slides" %}:numbered:
+:maxdepth: {% if slide %}1{% else %}2{% endif %}
+{% if slide %}:numbered:
 :hidden:
 {% endif %}
 
@@ -83,8 +83,8 @@ content/efficientCloudUsage/source/content/index
 
 ```{toctree}
 :caption: Outro
-:maxdepth: {% if build == "slides" %}1{% else %}2{% endif %}
-{% if build == "slides" %}:hidden:
+:maxdepth: {% if slide %}1{% else %}2{% endif %}
+{% if slide %}:hidden:
 {% endif %}
 
 content/outro/index
