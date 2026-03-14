@@ -1,9 +1,9 @@
 [submodule "source/content/efficientCloudUsage"]
 	path = source/content/workflowClusterProfiling
-	url = https://github.com/t4d-gmbh/efficientCloudUsage
+    url = https://github.com/t4d-gmbh/workflowClusterProfiling
 [submodule "source/content/efficientClusterComputation"]
 	path = source/content/recapCloudObjects
-	url = https://github.com/t4d-gmbh/efficientClusterComputation
+	url = https://github.com/t4d-gmbh/recapCloudObjects
 [submodule "source/content/researchSoftwareEngineering"]
 	path = source/content/researchSoftwareEngineering
 	url = https://github.com/t4d-gmbh/researchSoftwareEngineering
