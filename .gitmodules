@@ -1,12 +1,12 @@
-[submodule "source/content/efficientCloudUsage"]
+[submodule "source/content/workflowClusterProfiling"]
 	path = source/content/workflowClusterProfiling
-    url = https://github.com/t4d-gmbh/workflowClusterProfiling
-[submodule "source/content/efficientClusterComputation"]
-	path = source/content/recapCloudObjects
-	url = https://github.com/t4d-gmbh/recapCloudObjects
+    url = https://github.com/t4d-gmbh/workflowClusterProfiling.git
+[submodule "source/content/recapCloudsObjects"]
+	path = source/content/recapCloudsObjects
+	url = https://github.com/t4d-gmbh/recapCloudsObjects.git
 [submodule "source/content/researchSoftwareEngineering"]
 	path = source/content/researchSoftwareEngineering
-	url = https://github.com/t4d-gmbh/researchSoftwareEngineering
+	url = https://github.com/t4d-gmbh/researchSoftwareEngineering.git
 [submodule "source/content/utilizingSharedResources"]
 	path = source/content/utilizingSharedResources
-	url = https://github.com/t4d-gmbh/utilizingSharedResources
+	url = https://github.com/t4d-gmbh/utilizingSharedResources.git
