@@ -55,10 +55,10 @@ content/utilizingSharedResources/source/content/index
 ```
 
 {% if slide %}
-### Recap; Using Cloud and Object Storage
+### Recap; Containers, Clouds & Objects
 {% endif %}
 ```{toctree}
-:caption: Part 3: Recap; Cloud & Object Storage
+:caption: Part 3: Recap; Containers, Clouds & Objects
 :maxdepth: {% if slide %}1{% else %}2{% endif %}
 {% if slide %}:numbered:
 :hidden:
@@ -68,10 +68,10 @@ content/utilizingSharedResources/source/content/index
 ```
 
 {% if slide %}
-### Cluster - Worklfows & Profiling
+### Cluster - Workflow & Profiling
 {% endif %}
 ```{toctree}
-:caption: Part 4: Cluster - Workflows & Profiling
+:caption: Part 4: Cluster - Workflow & Profiling
 :maxdepth: {% if slide %}1{% else %}2{% endif %}
 {% if slide %}:numbered:
 :hidden:

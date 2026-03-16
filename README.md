@@ -21,12 +21,12 @@ _You can use this material and the [related web content](https://t4d-gmbh.github
 
 ---
 
-### 3. Part: [Efficient Cluster Computation](https://github.com/t4d-gmbh/efficientClusterComputation)
+### 3. Part: [Recap; Containers, Clouds & Objects](https://github.com/t4d-gmbh/recapClodusObjects)
 
 ---
 
 
-### 4. Part: [Efficient Cloud Usage](https://github.com/t4d-gmbh/efficientCloudUsage)
+### 4. Part: [Cluster - Workflow & Profiling](https://github.com/t4d-gmbh/workflowClusterProfiling)
 
 ---
 
