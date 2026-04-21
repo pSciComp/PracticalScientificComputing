@@ -1,11 +1,33 @@
-# Practical Scientific Computing
- <!-- readme-include -->
+<div align="center">
 
-A <img src="./source/_static/T4D_logo.svg" alt="**T4D**" width="35" height="35"> seminar providing the required essentials — and more — to leverage shared resources efficiently.
+<img src="https://raw.githubusercontent.com/pSciComp/.github/main/_static/pSciComp_logo.png" alt="pSciComp Logo" width="400">
+
+<p>
+  <a href="https://pscicomp.courses.t4d.ch/slides/index.html">
+    <img src="https://img.shields.io/badge/Course-Slides-green.svg" alt="online handout">
+  </a>
+  <a href="https://pscicomp.courses.t4d.ch/index.html">
+    <img src="https://img.shields.io/badge/Course-Handout-purple.svg" alt="online handout">
+  </a>
+
+</p>
+<h1>Practical Scientific Computing</h1>
+<p>A practical guide to mastering
+  <br>
+  modern compute infrastructure
+</p>
+<br><br>
+<pre><small>A course provided by</small>
+<br>
+
+<a href="https://github.com/t4d-gmbh"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/t4d-gmbh/.github/main/static/logo/wb/T4D_discover.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/t4d-gmbh/.github/main/static/logo/bw/T4D_discover.svg"><img alt="T4D Logo" src="https://raw.githubusercontent.com/t4d-gmbh/.github/main/static/bw/T4D_discover.svg" width="220" style="vertical-align: middle;"></picture></a>
+</pre>
+</div>
+ <!-- readme-include -->
 
 ---
 
-_You can use this material and the [related web content](https://t4d-gmbh.github.io/PracticalScientifiComputing) as you please, as long as you cite this repository._
+_You can use this material and the [related web content](https://pscicomp.courses.t4d.ch/) as you please, as long as you cite this repository._
 
 ---
 
