@@ -1,7 +1,6 @@
 <div align="center">
-
 <img src="https://raw.githubusercontent.com/pSciComp/.github/main/_static/pSciComp_logo.png" alt="pSciComp Logo" width="400">
-
+</div>
 <p>
   <a href="https://pscicomp.courses.t4d.ch/slides/index.html">
     <img src="https://img.shields.io/badge/Course-Slides-green.svg" alt="online handout">
@@ -16,6 +15,9 @@
   <br>
   modern compute infrastructure
 </p>
+</div>
+ <!-- readme-include -->
+<div align="center">
 <br><br>
 <pre><small>A course provided by</small>
 <br>
@@ -23,7 +25,6 @@
 <a href="https://github.com/t4d-gmbh"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/t4d-gmbh/.github/main/static/logo/wb/T4D_discover.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/t4d-gmbh/.github/main/static/logo/bw/T4D_discover.svg"><img alt="T4D Logo" src="https://raw.githubusercontent.com/t4d-gmbh/.github/main/static/bw/T4D_discover.svg" width="220" style="vertical-align: middle;"></picture></a>
 </pre>
 </div>
- <!-- readme-include -->
 
 ---
 

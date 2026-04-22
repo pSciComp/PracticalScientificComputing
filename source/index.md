@@ -1,30 +1,23 @@
-```{raw} html
-<div align="center">
-<img src="https://raw.githubusercontent.com/pSciComp/.github/main/_static/pSciComp_logo.png" alt="pSciComp Logo" width="400">
-</div>
-<div align="center">
-<p>
-  <a href="https://pscicomp.courses.t4d.ch/slides/index.html">
-    <img src="https://img.shields.io/badge/Course-Slides-green.svg" alt="online handout">
-  </a>
-  <a href="https://pscicomp.courses.t4d.ch/index.html">
-    <img src="https://img.shields.io/badge/Course-Handout-purple.svg" alt="online handout">
-  </a>
-
-</p>
-<h1>Practical Scientific Computing</h1>
-<p>A practical guide to mastering
-  <br>
-  modern compute infrastructure
-</p>
-<br><br>
-<pre><small>A course provided by</small>
-<br>
-
-<a href="https://github.com/t4d-gmbh"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/t4d-gmbh/.github/main/static/logo/wb/T4D_discover.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/t4d-gmbh/.github/main/static/logo/bw/T4D_discover.svg"><img alt="T4D Logo" src="https://raw.githubusercontent.com/t4d-gmbh/.github/main/static/bw/T4D_discover.svg" width="220" style="vertical-align: middle;"></picture></a>
-</pre>
-</div>
+```{include} ../README.md
+:end-before: <!-- readme-logo-->
 ```
+:::{div} text-center bg-light text-body p-3 rounded font-monospace
+
+<small>A course provide by</small>
+
+```{image} https://raw.githubusercontent.com/t4d-gmbh/.github/main/static/logo/bw/T4D_discover.svg
+:class: only-light
+:width: 220px
+:alt: T4D logo
+:target: https://github.com/t4d-gmbh
+```
+```{image} https://raw.githubusercontent.com/t4d-gmbh/.github/main/static/logo/wb/T4D_discover.svg
+:class: only-light
+:width: 220px
+:alt: T4D logo
+:target: https://github.com/t4d-gmbh
+```
+:::
 
 {% if slide %}
 :::{admonition} Authors
