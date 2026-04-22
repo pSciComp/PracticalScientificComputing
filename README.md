@@ -1,6 +1,6 @@
 <div align="center">
 <img src="https://raw.githubusercontent.com/pSciComp/.github/main/_static/pSciComp_logo.png" alt="pSciComp Logo" width="400">
-</div>
+
 <p>
   <a href="https://pscicomp.courses.t4d.ch/slides/index.html">
     <img src="https://img.shields.io/badge/Course-Slides-green.svg" alt="online handout">
