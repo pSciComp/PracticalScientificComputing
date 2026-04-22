@@ -15,7 +15,7 @@ course_logo = {
     "image_dark": "_static/T4D_logo_wb.svg",
     "link": f"{page_url}/index.html",
     "alt-text": "",
-    "favicon": "_static/T4D_logo.svg",
+    "favicon": "T4D_logo.svg",
 }
 # -- name your project
 project = 'Practical Scientific Computing'

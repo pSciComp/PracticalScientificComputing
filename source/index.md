@@ -1,9 +1,10 @@
 ```{include} ../README.md
 :end-before: <!-- readme-header -->
 ```
-:::{div} text-center bg-light text-body p-3 rounded font-monospace
 
-<small>A course provide by</small>
+:::{div} text-center gh-pre p-3 rounded font-monospace
+
+<small>A course provided by</small>
 
 ```{image} https://raw.githubusercontent.com/t4d-gmbh/.github/main/static/logo/bw/T4D_discover.svg
 :class: only-light
