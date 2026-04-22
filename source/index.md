@@ -1,5 +1,5 @@
 ```{include} ../README.md
-:end-before: <!-- readme-logo-->
+:end-before: <!-- readme-header -->
 ```
 :::{div} text-center bg-light text-body p-3 rounded font-monospace
 
@@ -12,7 +12,7 @@
 :target: https://github.com/t4d-gmbh
 ```
 ```{image} https://raw.githubusercontent.com/t4d-gmbh/.github/main/static/logo/wb/T4D_discover.svg
-:class: only-light
+:class: only-dark
 :width: 220px
 :alt: T4D logo
 :target: https://github.com/t4d-gmbh

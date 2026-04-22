@@ -1,27 +1,27 @@
 /* Fonts */
 @font-face {
     font-family: 'M+ 2';
-    src: url('._static/fonts/Mplus2-Regular.ttf') format('truetype');
+    src: url('fonts/Mplus2-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'M+ 2';
-    src: url('._static/fonts/Mplus2-ExtraBold.ttf') format('truetype');
+    src: url('fonts/Mplus2-ExtraBold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'M+ Code';
-    src: url('._static/fonts/MplusCodeLatin50-Regular.ttf') format('truetype');
+    src: url('fonts/MplusCodeLatin50-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'M+ Code';
-    src: url('._static/fonts/MplusCodeLatin50-Bold.ttf') format('truetype');
+    src: url('fonts/MplusCodeLatin50-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
